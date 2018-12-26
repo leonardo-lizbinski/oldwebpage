@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" />
+		<title>Leonardo's Personal Website</title>
+		<link rel="icon" href="images/fav_orange.ico">
+    	<link href="css/style.css" rel="stylesheet" />
+    	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<body id="contact_body">
+		<div id="gif_bg">
+		</div>
+			<header>
+			<!-- Navigation Bar -->
+			<div class="header_wrapper">
+				<h1 id="logo"><a href="index.html">Leonardo Lizbinski</a></h1>
+				<a id="home4" href="index.html">Home</a>
+  				<!-- <a id="about4" href="about.html">About</a> -->
+  				<a id="interests4" href="interests.html">Interests</a>
+  				<!-- <a id="social4" href="social.html">Social Media</a> -->
+  				<a id="education4" href="education.html">Education</a>
+  				<a id="active4" href="contact.html">Contact</a>
+			</header>
+			<!-- Contact Form -->
+			<h2 id="contact_title">Contact Leonardo Lizbinski</h2>
+			<div id="contact_wrapper">
+				<form id="contactform" method="POST">
+				    <input type="text" name="name" placeholder="Your Name">	<br />
+					<input type="text" name="email" placeholder="Your Email"> <br />
+					<input type="hidden" name="_subject" value="Website contact" />
+					<textarea id="text" class="message" name="message" rows="7" cols="30" placeholder="Your Message"></textarea><br />
+					<input type="text" name="_gotcha" style="display:none" />
+					<button id="button2" type="submit" value="Send">Submit</button>
+				</form>
+				<script>
+				    var contactform =  document.getElementById('contactform');
+				    contactform.setAttribute('action', '//formspree.io/' + '7lizbinski7' + '@' + 'gmail' + '.' + 'com');
+				</script>
+			</div>
+			<div id="footer">
+				<p>Baked from scratch.</p>
+			</div>
+		</body>
+	</head>
+</html>

@@ -1,0 +1,835 @@
+/*Basic Body styling*/
+#index{
+	margin:0;
+	padding:0;
+	padding-top:60px;
+	background:  linear-gradient(
+      rgba(0, 102, 0, 0.35),
+      rgba(0, 102, 0, 0.35)
+    ),url("../images/social.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#about_body{
+	margin:0;
+	padding:0;
+	padding-top:60px;
+	background:  linear-gradient(
+      rgba(255, 165, 0, 0.35), 
+      rgba(255, 165, 0, 0.35)
+    ),url("../images/mist.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#interests_body{
+	margin:0;
+	padding:0;
+	padding-top:60px;
+	background:  linear-gradient(
+      rgba(0, 0, 153, 0.35), 
+      rgba(0, 0, 153, 0.35)
+    ),url("../images/about.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#social_body{
+	margin:0;
+	padding:0;
+	padding-top:60px;
+	background:  linear-gradient(
+      rgba(178, 0, 0, 0.35), 
+      rgba(178, 0, 0, 0.35)
+    ),url("../images/social.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#education_body{
+	margin:0;
+	padding:0;
+	padding-top:60px;	
+	background:  linear-gradient(
+      rgba(128, 0, 128, 0.35), 
+      rgba(128, 0, 128, 0.35)
+    ),url("../images/education.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#contact_body{
+	margin:0;
+	padding:0;
+	padding-top:60px;
+	background:  linear-gradient(
+      rgba(255, 165, 0, 0.15), 
+      rgba(255, 165, 0, 0.15)
+    ),url("../images/contact.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+/*Content Styling, meat of the body*/
+
+.header_wrapper, .header2_wrapper{
+	position: absolute;
+	display: flex;
+	top:0px;
+	width:100%;
+	height:9%;
+	margin: 0;
+	padding:0;
+	align-items:center;
+	background: linear-gradient(
+      rgba(34, 34, 34, 0.35), 
+      rgba(34, 34, 34, 0.35)
+    );
+    /*overflow: auto;*/
+    white-space: nowrap;
+}
+
+.header_wrapper a{
+	list-style-type: none;
+	/*overflow: auto;*/
+	background-color: transparent;
+	float:left;
+	display:inline-block;
+	text-align: center;
+	align-items: center;
+	color:white;
+	
+	width:100%;
+	height:100%;
+	line-height:60px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5vw;
+	border-left: 1px solid white; 
+
+
+}
+
+#passion, #sosh, #bruno, #bull, #contact_title, #intro_wrapper h1, #intro_wrapper h2{
+	text-align: center;
+	color: white;
+	font-family: 'Barrio', cursive;
+	font-size: 4vw;
+	padding: 0;
+	margin:0px;
+	margin-top: 30px;
+}
+
+#intro_wrapper h2{
+	color: white;
+	font-size: 3vw;
+	margin-top:10px;
+}
+
+#logo{
+	/*line-height: 5px;*/
+	margin-top: 20px;
+	margin-left: 45px;
+	padding-right: 40px;
+	line-height: 60px;
+	height: 100%;
+}
+
+#logo a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3vw;
+	border: none;
+}
+
+#button2{
+	text-decoration: none;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3vw;
+	border: none;
+}
+
+#img_portrait{
+	display: block;
+	margin: auto;
+	margin-top:70px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
+	opacity:0.85;
+}
+
+/*img:hover{
+	opacity: 0.5;
+}*/
+
+
+#brown_logo {
+	height: 1.4%;
+	width: 1.4%;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .header_wrapper {
+    	position:absolute;
+        height: 30px;
+        /*background: none;*/
+        overflow-x: visible;
+        overflow-y: hidden;
+
+    }
+    .header_wrapper a{
+        line-height: 30px;
+        font-size: 1.75vw;
+        padding-bottom:0;
+        margin-bottom:0;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: none;
+    }
+    #passion, #sosh, #bruno, #contact_title, #intro_wrapper, #bull h1{
+    	margin-top: 0px;
+    	font-size: 30px;
+    }
+    #intro_wrapper h2{
+    	font-size: 20px;
+    }
+    #logo{
+    	margin-left: 10px;
+		padding-right: 15px;
+    }
+    #img_portrait{
+		display: block;
+		margin: auto;
+		margin-top:50px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		width: 40%;
+		height: 40%;
+		border-radius: 50%;
+	}
+	#brown_logo {
+	height: 3%;
+	width: 3%;
+	padding-top: 10px;
+}
+	
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
+    .header_wrapper {
+        height: 40px;
+    }
+    .header_wrapper a{
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px){
+    .header_wrapper {
+        height: 50px;
+    }
+    .header_wrapper a{
+        line-height: 50px;
+    }
+}
+
+/*Footer styling*/
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    overflow:hidden;
+}
+
+#footer1 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    overflow:hidden;
+}
+
+#footer p, #footer1 p{
+    line-height: 0px;
+    text-align: right;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+}
+
+
+
+/*Navigation Bar Styling*/
+#active{
+	background-color: #0f4d92;/*blue*/
+}
+
+#about:hover{
+	background-color: #ffa500; /*orange*/
+}
+
+#interests:hover{
+	background-color: #B20000; /*red*/
+}
+
+#social:hover{
+	background-color: #B20000; /*red*/
+}
+
+#education:hover{
+	background-color: #800080; /*purple*/
+}
+
+#contact:hover{
+	background-color:#ffa500; /*orange*/
+	color:black;
+}
+
+#active0{
+	background-color: #ffa500; /*orange*/
+	color:white;
+}
+
+.ind, .int, .soc, .edu, .abo{
+	color:white;
+}
+
+
+#home0:hover{
+	background-color: ‎#0f4d92;/*blue*/
+	color:white;
+
+}
+
+#interests0:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+
+}
+
+#social0:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+
+}
+
+#education0:hover{
+	background-color: #800080; /*purple*/
+	color:white;
+
+}
+
+#contact0:hover{
+	background-color:#ffa500; /*orange*/
+	color:black;
+}
+
+#active1{
+	background-color: #B20000;/*red*/
+}
+
+#about1:hover{
+	background-color: #ffa500; /*orange*/
+}
+
+#home1:hover{
+	background-color: #0f4d92; /*blue*/
+}
+
+#social1:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+}
+
+#education1:hover{
+	background-color: #800080; /*purple*/
+	color:white;
+}
+
+#contact1:hover{
+	background-color:#ffa500; /*orange*/
+	color:black;
+}
+
+#active2{
+	background-color: #B20000;/*red*/
+	color:white;
+}
+
+#about2:hover{
+	background-color: #ffa500; /*orange*/
+	color:white;
+}
+
+#home2:hover{
+	background-color: #0f4d92; /*blue*/
+	color:white;
+}
+
+#interests2:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+}
+
+#education2:hover{
+	background-color: #800080; /*purple*/
+	color:white;
+}
+
+#contact2:hover{
+	background-color:#ffa500; /*orange*/
+	color:black;
+}
+
+#active3{
+	background-color: #800080;/*purple*/
+	color:white;
+}
+
+#about3:hover{
+	background-color: #ffa500; /*orange*/
+	color:white;
+}
+
+#home3:hover{
+	background-color: #0f4d92; /*blue*/
+	color:white;
+}
+
+#interests3:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+}
+
+#social3:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+}
+
+#contact3:hover{
+	background-color:#ffa500; /*orange*/
+	/*color:black;*/
+}
+
+#active4{
+	color:black;
+	background-color:#ffa500; /*orange*/
+}
+
+#home4:hover{
+	background-color: #0f4d92; /*blue*/
+	color:white;
+}
+
+#about4:hover{
+	background-color: #ffa500; /*orange*/
+	color:white;
+}
+
+#interests4:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+}
+
+#social4:hover{
+	background-color: #B20000; /*red*/
+	color:white;
+}
+
+#education4:hover{
+	background-color: #800080; /*purple*/
+	color:white;
+}
+
+/*Styling of tiny pictures*/
+
+
+/*Styling of Headers*/
+
+
+
+
+/*Head shot styling*/
+
+
+#social_wrapper{
+	display:flex;
+	margin-top: 100px;
+}
+
+#outer_box{
+	display: flex;
+}
+
+/*Made a clickable div around social media images*/
+#box-link1 { 
+	position: absolute;
+	top: 24%;
+	left:3%;
+	width: 15%; 
+	height: 30%; 
+	background-color: transparent; 
+}	
+
+#box-link2 { 
+	position: absolute;
+	top: 24%;
+	left:23%;
+	width: 15%; 
+	height: 30%; 
+	background-color: transparent; 
+}	
+
+#box-link3 { 
+	position: absolute;
+	top: 24%;
+	left:43%;
+	width: 15%; 
+	height: 30%; 
+	background-color: transparent; 
+}	
+
+#box-link4 { 
+	position: absolute;
+	top: 24%;
+	left:63%;
+	width: 15%; 
+	height: 30%; 
+	background-color: transparent; 
+}	
+#box-link5 { 
+	position: absolute;
+	top: 24%;
+	left:83%;
+	width: 15%; 
+	height: 30%; 
+	background-color: transparent; 
+}
+
+/*Styling of images*/
+#fb, #linkedin, #twitter, #git, #google{
+	display: block;
+	margin: auto;
+	width: 13%;
+	height: 13%;
+	border-radius: 50%;
+}
+
+
+#heart, #smile {
+	height: 3%;
+	width: 3%;
+	padding-top: 10px;
+}
+
+#ball {
+	height: 11%;
+	width: 11%;
+	padding-top: 10px;
+}
+
+#pager {
+	height: 10%;
+	width: 10%;
+	padding-top: 10px;
+}
+
+#laptop, #note, #piece, #throw, #game, #tv, #board {
+	height: 10%;
+	width: 10%;
+	padding-top: 10px;
+}
+
+#bizz, #type, #dna, #umb, #coast, #yum, #light, #hosp, #writ {
+	height: 7%;
+	width: 7%;
+	margin-bottom:-7px;
+	padding-top: 10px;
+}
+
+#md, #cake, #cal, #tie, #spend, #free, #thumb, #thankful, #pwc, #health, #vaca, #child, #yes, #mouse, #tear {
+	height: 3%;
+	width: 3%;
+	padding-top: 10px;
+}
+
+#brownie {
+	height: 2%;
+	width: 2%;
+	padding-top: 10px;
+}
+
+#h1_csci, #h1_biol, #h1_apma, #h1_y1, #h1_y2, #h1_y3 {
+	padding-left: 10%;
+}
+
+/*Contact Page styling*/
+#contact_wrapper {
+	text-align:center;
+	padding-top: 20px;
+}
+
+/*Styling for the input fields in the contact form*/
+#contact_wrapper input[type="text"] {
+  padding: 10px;
+  /*padding-left: 20px;*/
+  width: 30%;
+  height: auto;
+  margin:2px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #ffa500;
+  background-color: black;
+  /*padding-right: 120px;*/
+  font-family: 'Merriweather', sans-serif;
+   background:  linear-gradient(
+      rgba(34, 34, 34, 0.4), 
+      rgba(34, 34, 34, 0.4)
+   );
+   font-size: 1.5vw;
+   color:white;
+}
+
+#contact_wrapper input[type="text"]:focus,
+#contact_wrapper input[type="text"].focus {
+  box-shadow: inset 1px 1px 2px 0 #ffa500;
+}
+
+#contact_wrapper textarea {
+  padding: 10px;
+  /*padding-left: 20px;*/
+  width: 30%;
+  height: 50%;
+  margin:2px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #ffa500;
+  background-color: black;
+  /*padding-right: 120px;*/
+  font-family: 'Merriweather', sans-serif;
+   background:  linear-gradient(
+      rgba(34, 34, 34, 0.4), 
+      rgba(34, 34, 34, 0.4)
+   );
+   font-size: 1.5vw;
+   color:white;
+}
+
+#contact_wrapper textarea:focus,
+#contact_wrapper textarea.focus {
+  box-shadow: inset 1px 1px 2px 0 #ffa500;
+}
+
+/*Styling for interests page*/
+#interests_wrapper{
+	display:flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	text-align: center;
+}
+
+#football { 
+	width:30%; 
+	height:auto;
+	 background:  linear-gradient(
+      rgba(34, 34, 34, 0.4), 
+      rgba(34, 34, 34, 0.4)
+    );
+	 padding-right:1%;
+	 margin-left: 2%;
+	 margin-bottom: 2%;
+}
+
+#coding, #pop, #beaches, #chess, #juggling, #yugioh, #roller, #food, #book, #telly, #skateboard { 
+	width:30%; 
+	height:auto;
+	 background:  linear-gradient(
+      rgba(34, 34, 34, 0.4), 
+      rgba(34, 34, 34, 0.4)
+    );
+	 padding-right:1%;
+	 margin-left: 2%;
+	 margin-bottom: 2%;
+}
+
+#interests_wrapper p { 
+	padding:8px; 
+	margin-top:0;
+	font-style:normal; 
+	font-family: 'Barrio', cursive;
+	font-size:2vw; 
+	color:white; 
+}
+#interests_wrapper strong { 
+	display:block; 
+}
+
+#interests_wrapper h1{
+	font-family: 'Barrio', cursive;
+	font-size: 3vw;
+	color: white;
+	margin-left:0;
+	padding-left:5px;
+	margin-bottom:0;
+}
+
+#chelseafc, #jug, #code, #bioshock, #mj, #gary, #sand, #roll, #lavender, #gatsby, #lost, #skate {
+	width: 90%;
+	height:50%;
+	padding-bottom: 30px;
+}
+
+
+#contact_title{
+	color:black;
+	margin-bottom: 10px;
+}
+
+#intro_wrapper h1{
+	color: black;
+}
+
+#passion_wrapper{
+	display:flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	text-align: center;
+}
+
+#passion_wrapper p{
+	text-align: left;
+	color: white;
+	font-family: 'Sansita', sans-serif; 
+	font-size: 2vw;
+	padding: 10px;
+	margin:10px;
+	padding-bottom:20px;
+
+}
+
+/*Styling for education page*/
+#education_wrapper {
+	display:flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	text-align: center;
+}
+
+#education_wrapper ol { 
+	font-style:italic; font-family: 'Sansita', sans-serif; font-size:2vw; color:white;  
+}
+#education_wrapper p { 
+	padding:8px; 
+	font-style:normal; 
+	font-family: 'Slabo 27px', serif; 
+	font-size:1.2vw; 
+	color:white; 
+	border-left: 2px solid white; 
+}
+#education_wrapper strong { 
+	display:block; 
+}
+
+#education_wrapper h1{
+	font-family: 'Barrio', cursive;
+	font-size:1.5vw; 
+	color: white;
+}
+
+#education_wrapper2 {
+	display:flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	text-align: center;
+}
+
+#education_wrapper2 ol { 
+	font-style:italic; font-family: 'Sansita', sans-serif; font-size:2vw; color:white;  
+}
+#education_wrapper2 p { 
+	padding:8px; 
+	font-style:normal; 
+	font-family: 'Slabo 27px', serif; 
+	font-size:1.2vw; 
+	color:white; 
+	border-left: 2px solid white; 
+}
+#education_wrapper2 strong { 
+	display:block; 
+}
+
+#education_wrapper2 h1{
+	font-family: 'Barrio', cursive;
+	font-size:1.5vw; 
+	color: white;
+}
+
+#apma, #biol, #csci, #y1, #y2, #y3 { 
+	width:30%; 
+	 background:  linear-gradient(
+      rgba(34, 34, 34, 0.4), 
+      rgba(34, 34, 34, 0.4)
+    );
+	 padding-right:1%;
+	 margin-left: 2%;
+	 margin-bottom: 1%;
+
+}
+
+
+
+#brown_logo2 {
+	height: 2%;
+	width: 2%;
+	padding-top: 20px;
+}
+#yale_logo2 {
+	height: 7%;
+	width: 7%;
+	margin-left: -20px;
+	margin-bottom: -15px;
+	padding-top: 30px;
+}
+
+/*Styling for contact page button*/
+#button2{
+	font-family: 'Merriweather', sans-serif;
+	background:  linear-gradient(
+      rgba(255, 140, 0, 0.5), 
+      rgba(255, 140, 0, 0.5)
+    );
+	color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#contact_wrapper button:hover{
+	background:  linear-gradient(
+      rgba(255, 140, 0, 1), 
+      rgba(255, 140, 0, 1)
+    );
+}
+
+/*Apply transparency to images when hovering*/
+
+/*Styling for p text*/
+#p_text { 
+	width:100%; 
+	height:80%;
+	 background:  linear-gradient(
+      rgba(34, 34, 34, 0.4), 
+      rgba(34, 34, 34, 0.4)
+    );
+	 padding:;	
+	 padding-right:10px;
+	 margin-left: 20px;
+	 margin-bottom: 20px;
+}
