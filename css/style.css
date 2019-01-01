@@ -537,7 +537,7 @@
 	padding-top: 10px;
 }
 
-#laptop, #note, #piece, #throw, #game, #tv, #board {
+#laptop, #note, #piece, #throw, #game, #tv, #board, #cream, #show, #font, #clock, #shoe, #glasses {
 	height: 10%;
 	width: 10%;
 	padding-top: 10px;
@@ -641,7 +641,7 @@
 	 margin-bottom: 2%;
 }
 
-#coding, #pop, #beaches, #chess, #juggling, #yugioh, #roller, #food, #book, #telly, #skateboard { 
+#coding, #pop, #beaches, #chess, #juggling, #yugioh, #roller, #food, #book, #telly, #skateboard, #icecream, #magic, #calligraphy, #watches, #shoes, #sun { 
 	width:30%; 
 	height:auto;
 	 background:  linear-gradient(
@@ -674,7 +674,7 @@
 	margin-bottom:0;
 }
 
-#chelseafc, #jug, #code, #bioshock, #mj, #gary, #sand, #roll, #lavender, #gatsby, #lost, #skate {
+#chelseafc, #jug, #code, #bioshock, #mj, #gary, #sand, #roll, #lavender, #gatsby, #lost, #skate, #pistachio, #coin, #english, #watch, #boots, #ray {
 	width: 90%;
 	height:50%;
 	padding-bottom: 30px;
